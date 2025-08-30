@@ -1,0 +1,74 @@
+
+body {
+    /*background-image : url("https://cityguidetochicago.com/wp-content/uploads/2022/04/Chinatown-Chicago-Map.png");*/
+    background-color : black;
+    background-repeat : no-repeat;
+}
+
+
+.v-bar {
+	display : flex;
+	flex-direction : column;
+	justify-content : space-between;
+	align-items : flex-start;
+}
+
+.h-bar {
+	display : flex;
+	flex-direction : row;
+	justify-content : space-between;
+	align-items : flex-start;
+}
+
+#nav-bar {
+	display : flex;
+	flex-direction : column;
+	justify-content : space-between;
+	align-items : flex-start;
+}
+
+#top-bar {
+	display : flex;
+	flex-direction : row;
+	justify-content : space-between;
+	align-items : flex-start;
+	height : 10%;
+	background-color : pink;
+}
+
+.nav-button {
+    background-color : rgba(0.0, 0.0, 0.0, 0.0);
+    color : rgba(30, 80, 255, 1.0);
+    width : 250px;
+    height : 80px;
+    border-width : 0px;
+    border-color : rgba(30, 80, 255, 1.0);
+}
+
+.nav-button:hover {
+    animation-name : nav-button-hover;
+    animation-duration : 0.3s;
+    animation-fill-mode : forwards;
+}
+
+#content-image {
+
+}
+
+#content-paragraph {
+    color : rgba(30, 80, 255, 1.0);
+    
+}
+
+@keyframes nav-button-hover {
+    from {
+        background-color : rgba(0.0, 0.0, 0.0, 0.0);
+        border-width : 0px;
+    }
+    to {
+        background-color : rgba(100, 100, 100, 0.5);
+        border-width : 0px 0px 2px 0px;
+    }
+}
+
+/*flex-grow for cool styling*/
