@@ -7,7 +7,10 @@
 		<link rel="stylesheet" href="default.css">
 		<script src="def.js"></script>
 	</head>
-	<body>
+	<body onload="load('chinatown', true)">
+		<div style="float : right; display : flex; justify-content : center; align-items : center; height : 100%; width : 50%;"  >
+			<img id="map" alt="" height="100%" src="https://cityguidetochicago.com/wp-content/uploads/2022/04/Chinatown-Chicago-Map.png" > 
+		</div>
 		<div class="v-bar">
 			<div id="top-bar">
 			    <p></p>
@@ -21,21 +24,17 @@
 					<button class="nav-button" type="button" onclick="load('saintAnnasBakery')">Saint Anna's Bakery</button>
 					<button class="nav-button" type="button" onclick="load('CASLHeadquarters')">CASL Headquarters</button>
 					<button class="nav-button" type="button" onclick="load('puiTak')">Puitak Center</button>
+					<button class="nav-button" type="button" onclick="load('chinatownCPL')">Chinatown Branch Chicago Public Library</button>
 				</div>
 				<div class="v-bar" id="content-container">
 					<h1 id="content-header"></h1>
 					<div>
 						<img id="content-image" alt="" height="200px">
-						<p id="content-paragraph">Lorem ipsum</p>
-					</div>	
-						
-						
+						<p id="content-address"></p>
+						<p id="content-paragraph"></p>
+					</div>		
 				</div>
 			</div>
 		</div>
-		
-		
-		
-		
 	</body>
 </html>
