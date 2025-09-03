@@ -25,7 +25,7 @@ body {
 	flex-direction : row;
 	justify-content : space-between;
 	align-items : flex-start;
-	background-color : rgba(40, 40, 40, 0.4);
+	background-color : rgba(40, 40, 40, 0.85);
 	backdrop-filter : blur(4px) invert(100%);
 }
 
