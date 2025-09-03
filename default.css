@@ -1,5 +1,5 @@
 body {
-	background-image : url(https://cityguidetochicago.com/wp-content/uploads/2022/04/Chinatown-Chicago-Map.png);
+	background-image : url(ChinatownChicagoMap.png);
 	background-color : rgb(40, 40, 40);
 	background-repeat : no-repeat;
 	background-size : cover;
@@ -7,8 +7,8 @@ body {
 
 
 #map {
-	height : 600px;
-	min-height : 200px;
+	/*float : right;*/
+	height : 560px;
 	filter : invert(100%);
 }
 
@@ -46,11 +46,11 @@ body {
 
 .nav-button {
 	background-color : rgba(0.0, 0.0, 0.0, 0.0);
-	color : rgba(30, 80, 255, 1.0);
+	color : rgb(60, 120, 255);
 	width : 250px;
 	height : 70px;
 	border-width : 0px;
-	border-color : rgba(30, 80, 255, 1.0);
+	border-color : rgb(60, 120, 255);
 }
 
 .nav-button:hover {
@@ -64,11 +64,13 @@ body {
 }
 
 #content-paragraph {
-	color : rgba(30, 80, 255, 1.0);
+	color : rgb(60, 120, 255);
+	font-size : 18px;
 }
 
 #content-address {
-	color : rgba(30, 80, 255, 1.0);
+	color : rgb(60, 120, 255);
+	font-weight : bold;
 }
 
 #content-container {
